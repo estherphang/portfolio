@@ -1,0 +1,36 @@
+/* homepage */
+
+.outlined-text {
+  color: #212427; /* Default text color */
+  -webkit-text-fill-color: transparent; /* Make the text transparent */
+  -webkit-text-stroke-width: 2px; /* Set the width of the text outline */
+  -webkit-text-stroke-color: currentColor; /* Use the current text color for the outline */
+}
+
+.hover-color {
+  color: transparent; /* Change to your desired text color on hover */
+  -webkit-text-fill-color: var(
+    --text-fill-color
+  ); /* Make the text transparent */
+  -webkit-text-stroke-width: 2px; /* Set the width of the text outline */
+  -webkit-text-stroke-color: #212427;
+  text-decoration: none; /* Remove default underline */
+}
+
+.hover-color:hover {
+  text-decoration: underline; /* Add underline on hover */
+  text-decoration-color: var(--text-fill-color);
+  text-underline-offset: 0.15em;
+}
+
+.hover-blue:hover {
+  --text-fill-color: #a2e0fa; /* Set the text fill color for blue hover */
+}
+
+.hover-pink:hover {
+  --text-fill-color: #ffdbec; /* Set the text fill color for pink hover */
+}
+
+.hover-purple:hover {
+  --text-fill-color: #d1def3; /* Set the text fill color for green hover */
+}
