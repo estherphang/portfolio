@@ -5,27 +5,41 @@
         "id": "3",
         "url": "shetreks",
         "title": "SheTreks",
-        "description": "Connect with fellow solo female travelers and explore the world"
+        "description": "Connect with fellow solo female travelers and explore the world",
+        "colour": "bg-secondary",
+        "what": "SheTreks is an application designed for female solo travellers seeking camaraderie and adventure. It provides a platform for fellow female travellers to connect with like-minded individuals and participate in group activities. With SheTreks, travellers can effortlessly organise events and invite others to join them. Additionally, users can discover upcoming activities curated by fellow travellers and join in the fun.",
+        "why": "<p>As a solo female traveller, I understand the desire to connect with others and share experiences while on the road. </p> <br> <p>Existing travel apps often fail to cater to the needs of solo travellers, particularly in facilitating event organisation and participation. SheTreks fills this void by providing a comprehensive platform where travellers can connect and actively engage in travel experiences. By focusing on the female traveller demographic, SheTreks strives to cultivate a safe and inclusive community for women to explore, connect, and have fun.</p><br> <p>SheTreks was born out of the need to foster connections and create opportunities for shared adventures. By enabling users to organise and join events, SheTreks aims to make travel more accessible and cost-effective, especially for more enjoyable activities in groups.</p>",
+        "how": "how"
       },
       {
         "id": "2",
         "url": "thrifty-and-co",
         "title": "Thrifty and Co",
-        "description": "A financial app that helps you to track your budget and split your bills."
+        "description": "A financial app that helps you to track your budget and split your bills.",
+        "colour": "bg-secondary",
+        "what": "Thrifty and Co is a financial app that helps you to track your budget and split your bills.",
+        "why": "<p>I embarked on this project due to a common concern that many individuals, including myself, face: tracking expenses and understanding where our money goes by the end of each month. As I reflected on my financial habits, I realised how difficult it was to recall every expense, making it even harder to comprehend why I couldn't save as much as I desired.</p> <br> <p>Specifically, remembering expenditure details for distinct categories such as transportation, food, and shopping proved to be quite daunting. I needed clarity to manage my finances effectively and plan for the future.</p><br> <p>Recognising the widespread relevance of this issue, my teammate and I decided to tackle it head-on by developing Thrifty and Co, a financial app designed to address these challenges. In addition to tracking expenses and categorising them, we integrated a split bill function into the app. This addition stemmed from our observation that our age group frequently engages in activities like having lunch with colleagues or dining out with friends. We felt that having a feature to split bills effortlessly would significantly enhance the user experience and promote financial transparency among peers. </p><br><p>Therefore, we started this project to gain better insight into our personal finances and to provide a solution that could benefit others facing similar dilemmas in managing their expenses and social outings.</p>",
+        "how": "how"
       },
       {
         "id": "1",
         "url": "kitt-it-up",
         "title": "Kitt It Up",
-        "description": "Your Pomodoro Tracker with To-Do List"
+        "description": "Your Pomodoro Tracker with To-Do List",
+        "colour": "bg-secondary",
+        "what": "Kitt It Up is a powerful Pomodoro tracker integrated with a handy to-do list feature. This productivity tool is designed to keep you focused and on track with your tasks for dedicated time intervals. With Kitt It Up, you can easily customise your work and break durations according to your preference. For new users or when resetting the timer, the default setting is 25 minutes of work followed by a 5-minute break.",
+        "why": "I initiated the development of Kitt It Up with a simple goal: to tackle the challenge of maintaining focus and motivation during work sessions. Like many individuals, I often struggle with mundane tasks and the temptation to procrastinate. The Pomodoro technique has proven to be an effective strategy for enhancing productivity and time management in my workflow. Additionally, I frequently struggle to remember all the tasks on my agenda. Thus, combining a to-do list with the Pomodoro technique emerged as a practical solution to address these common challenges."
       }
     ],
     "marketing": [
       {
         "id": "1",
-        "url": "coding-tips",
+        "url": "SSEAYP-2015",
         "title": "SSEAYP 2015",
-        "description": "Branding campaign for the SSEAYP 2015 Singapore Contingent."
+        "description": "Branding campaign for the SSEAYP 2015 Singapore Contingent.",
+        "colour": "bg-accent",
+        "why": "why",
+        "how": "how"
       }
     ],
     "design": [

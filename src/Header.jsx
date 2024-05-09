@@ -4,6 +4,7 @@ import data from "/data/data.json";
 
 export default function Header() {
   const codingPosts = PostFetcher(data, "code");
+  const marketingPosts = PostFetcher(data, "marketing");
 
   return (
     <>
@@ -51,12 +52,22 @@ export default function Header() {
                   role="button"
                   className="m-4 hover:text-primary font-serif text-base"
                 >
-                  MARKETING / UX
+                  <Link to="/portfolio/marketing"> MARKETING</Link>
                 </div>
                 <ul
                   tabIndex="0"
                   className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
                 >
+                  {marketingPosts.map((post) => (
+                    <li key={post.id}>
+                      <a
+                        href={`/portfolio/marketing/${post.url}`}
+                        className="hover:bg-secondary"
+                      >
+                        {post.title}
+                      </a>
+                    </li>
+                  ))}
                   <li>
                     <a className="hover:bg-accent">Panda Saves Money</a>
                   </li>

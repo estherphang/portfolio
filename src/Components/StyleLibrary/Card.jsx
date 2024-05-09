@@ -1,19 +1,15 @@
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
-export default function Card({
-  title,
-  description,
-  colour,
-  id,
-  category,
-  url,
-}) {
+export default function Card({ title, description, colour, category, url }) {
+  console.log("Colour:", colour);
+
+  const bannerColour = `card lg:card-side ${colour} shadow-md mt-8 md:grid md:grid-cols-3 md:gap-4`;
+
   return (
     <>
       <Link to={`/portfolio/${category}/${url}`}>
-        <div
-          className={`card lg:card-side bg-${colour} shadow-md mt-8 md:grid md:grid-cols-3 md:gap-4`}
-        >
+        <div className={bannerColour}>
           <figure className="...">
             <img
               src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg"

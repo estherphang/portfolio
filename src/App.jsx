@@ -4,8 +4,9 @@ import Profile from "./Components/Profile";
 import Footer from "./Footer";
 import Header from "./Header";
 import Main from "./Components/Homepage/Main";
-import AllCodingProjects from "./Components/CodePage/AllCodingProjects";
-import IndividualCodProject from "./Components/CodePage/IndividualCodProject";
+
+import AllProjects from "./Components/Content/AllProjects";
+import IndividualProject from "./Components/Content/IndividualProject";
 
 function App() {
   const router = createBrowserRouter([
@@ -32,10 +33,10 @@ function App() {
           path: `portfolio`,
           children: [
             {
-              path: `code`,
+              path: `:categories`,
               children: [
-                { index: true, element: <AllCodingProjects /> },
-                { path: ":url", element: <IndividualCodProject /> },
+                { index: true, element: <AllProjects /> },
+                { path: ":url", element: <IndividualProject /> },
               ],
             },
           ],

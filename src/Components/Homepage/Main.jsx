@@ -4,7 +4,7 @@ import "./homepage.css";
 export default function Main() {
   return (
     <>
-      <div className="flex flex-col mt-4 place-content-between md:flex-row mt-4">
+      <div className="flex flex-col mt-4 place-content-between md:flex-row">
         <div className="content-center">
           <div className="text-4xl mt-4 font-serif mb-2">
             {" "}

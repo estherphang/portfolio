@@ -17,7 +17,13 @@ export default function RecentWork() {
           id={post.id}
           title={post.title}
           // arrangement of blue, pink, purple
-          colour={index === 0 ? "secondary" : index === 1 ? "accent" : "purple"}
+          colour={
+            index === 0
+              ? "bg-secondary"
+              : index === 1
+              ? "bg-accent"
+              : "bg-purple"
+          }
           description={post.description}
           category="code"
           url={post.url}
