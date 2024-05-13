@@ -18,6 +18,11 @@ export default {
         black: "#212427",
         grey: "#E4E4E4",
       },
+      fontSize: {
+        base: ["1rem", { lineHeight: "1.625" }],
+        "2xl": ["1.5rem", { lineHeight: "2.25rem" }],
+        "3xl": ["1.875rem", { lineHeight: "2.5rem" }],
+      },
     },
   },
   daisyui: {

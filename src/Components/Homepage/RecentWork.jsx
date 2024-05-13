@@ -24,6 +24,7 @@ export default function RecentWork() {
               ? "bg-accent"
               : "bg-purple"
           }
+          image={post.image}
           description={post.description}
           category="code"
           url={post.url}

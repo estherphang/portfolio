@@ -7,6 +7,7 @@ import Main from "./Components/Homepage/Main";
 
 import AllProjects from "./Components/Content/AllProjects";
 import IndividualProject from "./Components/Content/IndividualProject";
+import About from "./Components/About";
 
 function App() {
   const router = createBrowserRouter([
@@ -30,6 +31,10 @@ function App() {
           element: <Contact />,
         },
         {
+          path: "about",
+          element: <About />,
+        },
+        {
           path: `portfolio`,
           children: [
             {
@@ -46,8 +51,8 @@ function App() {
   ]);
 
   return (
-    <div className="flex justify-center">
-      <div className="mt-2 mx-2 w-full sm:w-10/12 md:w-10/12 lg:w-10/12 xl:w-10/12">
+    <div className="flex justify-center max-sm:m-4">
+      <div className="mt-2 mx-2 w-full sm:w-10/12 md:w-10/12 lg:w-10/12 xl:w-10/12 ">
         <RouterProvider router={router} />
       </div>
     </div>

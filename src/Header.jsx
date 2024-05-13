@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import PostFetcher from "./Components/Hooks/PostFetcher";
 import data from "/data/data.json";
+import { yellowBtn } from "./Components/StyleLibrary/ClassName";
 
 export default function Header() {
   const codingPosts = PostFetcher(data, "code");
@@ -12,7 +13,7 @@ export default function Header() {
         <div className="navbar-start">
           <Link to="/">
             <img
-              src="./header-logo.png"
+              src="/header-logo.png"
               alt="logo"
               width="200px"
               className="-ml-2"
@@ -102,19 +103,18 @@ export default function Header() {
                   </li>
                 </ul>
               </div>
-              {/* <li>
-                  <a>Item 1</a>
-                </li>
+              <li>
+                <a className="mt-2 hover:text-primary font-serif text-base">
+                  <Link to="/about">ABOUT</Link>
+                </a>
+              </li>
 
-                <li>
-                  <a>Item 3</a>
-                </li> */}
+              {/* <li>
+                <a>Item 3</a>
+              </li> */}
             </ul>
           </div>
-          <Link
-            to="/contact"
-            className="btn btn-primary text-base font-serif font-normal tracking-wide"
-          >
+          <Link to="/contact" className={`${yellowBtn}`}>
             CONTACT
           </Link>
           <div className="dropdown dropdown-end">

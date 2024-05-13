@@ -1,5 +1,6 @@
 import RecentWork from "./RecentWork";
 import "./homepage.css";
+import { yellowBtn } from "../StyleLibrary/ClassName";
 
 export default function Main() {
   return (
@@ -37,9 +38,7 @@ export default function Main() {
             seamless tapestry of innovation and artistry. Your adventure begins
             here!
           </p>
-          <button className="btn btn-primary text-base font-normal font-serif mt-2 tracking-wide">
-            LET'S COLLABORATE!
-          </button>
+          <button className={`${yellowBtn} + mt-2`}>LET'S COLLABORATE!</button>
         </div>
         <img
           src="./self-cartoon.png"

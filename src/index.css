@@ -18,6 +18,12 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
+  line-height: 1.625rem;
+}
+
+/* space between paragraph */
+p {
+  padding-bottom: 0.8em;
 }
 
 h1,

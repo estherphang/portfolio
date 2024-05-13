@@ -9,17 +9,20 @@ export default function AllProjects() {
 
   return (
     <>
-      {allPost.map((post) => (
-        <Card
-          key={post.id}
-          id={post.id}
-          title={post.title}
-          colour={post.colour}
-          description={post.description}
-          category="code"
-          url={post.url}
-        />
-      ))}
+      <div className="-mt-4">
+        {allPost.map((post) => (
+          <Card
+            key={post.id}
+            id={post.id}
+            title={post.title}
+            colour={post.colour}
+            description={post.description}
+            category="code"
+            url={post.url}
+            image={post.image}
+          />
+        ))}
+      </div>
     </>
   );
 }

@@ -1,7 +1,13 @@
 import { Link } from "react-router-dom";
-import PropTypes from "prop-types";
 
-export default function Card({ title, description, colour, category, url }) {
+export default function Card({
+  title,
+  description,
+  colour,
+  category,
+  url,
+  image,
+}) {
   console.log("Colour:", colour);
 
   const bannerColour = `card lg:card-side ${colour} shadow-md mt-8 md:grid md:grid-cols-3 md:gap-4`;
@@ -12,16 +18,18 @@ export default function Card({ title, description, colour, category, url }) {
         <div className={bannerColour}>
           <figure className="...">
             <img
-              src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg"
+              src={image}
+              className="ml-8 mt-3 max-sm:-mt-6 max-sm:ml-0"
               alt="Album"
             />
           </figure>
           <div className="card-body justify-center col-span-2 ...">
             <div className="flex flex-col  ">
-              <h2 className="card-title text-2xl font-normal">{title}</h2>
+              <h2 className="card-title text-2xl font-normal max-sm:-mt-20">
+                {title}
+              </h2>
               <p>{description}</p>
             </div>
-            <div className="card-actions justify-end"></div>
           </div>
         </div>
       </Link>
