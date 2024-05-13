@@ -36,9 +36,27 @@
     ],
     "marketing": [
       {
+        "id": "3",
+        "url": "panda-saves-money",
+        "title": "Panda Saves Money",
+        "description": "Branding campaign for the SSEAYP 2015 Singapore Contingent.",
+        "colour": "bg-accent",
+        "why": "why",
+        "how": "how"
+      },
+      {
+        "id": "2",
+        "url": "smu-10th-anniversary",
+        "title": "SMU 10th Anniversary",
+        "description": "Branding campaign for the SSEAYP 2015 Singapore Contingent.",
+        "colour": "bg-accent",
+        "why": "why",
+        "how": "how"
+      },
+      {
         "id": "1",
-        "url": "SSEAYP-2015",
-        "title": "SSEAYP 2015",
+        "url": "kopi-cafe",
+        "title": "Kopi Cafe",
         "description": "Branding campaign for the SSEAYP 2015 Singapore Contingent.",
         "colour": "bg-accent",
         "why": "why",
@@ -51,6 +69,15 @@
         "url": "pet-protraits",
         "title": "Pet Protraits",
         "description": "Custom pet portraits for a good cause."
+      },
+      {
+        "id": "2",
+        "url": "SSEAYP-2015",
+        "title": "SSEAYP 2015",
+        "description": "Branding campaign for the SSEAYP 2015 Singapore Contingent.",
+        "colour": "bg-accent",
+        "why": "why",
+        "how": "how"
       }
     ]
   }

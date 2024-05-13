@@ -1,4 +1,5 @@
 import { SiGithub, SiNotion, SiLinkedin } from "react-icons/si";
+import { footerIcon } from "./Components/StyleLibrary/ClassName";
 
 export default function Footer() {
   return (
@@ -48,9 +49,9 @@ export default function Footer() {
                 <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
               </svg>
             </a>
-            <SiGithub className="text-3xl text-neutral" />
-            <SiNotion className="text-3xl" />
-            <SiLinkedin className="text-3xl" />
+            <SiGithub className={`${footerIcon}`} />
+            <SiNotion className={`${footerIcon}`} />
+            <SiLinkedin className={`${footerIcon}`} />
           </div>
         </nav>
       </footer>

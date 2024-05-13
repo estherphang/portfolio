@@ -63,21 +63,12 @@ export default function Header() {
                     <li key={post.id}>
                       <a
                         href={`/portfolio/marketing/${post.url}`}
-                        className="hover:bg-secondary"
+                        className="hover:bg-accent"
                       >
                         {post.title}
                       </a>
                     </li>
                   ))}
-                  <li>
-                    <a className="hover:bg-accent">Panda Saves Money</a>
-                  </li>
-                  <li>
-                    <a className="hover:bg-accent">SMU SOL 10th Anniversary</a>
-                  </li>
-                  <li>
-                    <a className="hover:bg-accent">Kopi Cafe</a>
-                  </li>
                 </ul>
               </div>
               <div className="dropdown dropdown-hover">
@@ -104,7 +95,7 @@ export default function Header() {
                 </ul>
               </div>
               <li>
-                <a className="mt-2 hover:text-primary font-serif text-base">
+                <a className="mt-2 hover:text-primary hover:bg-transparent font-serif text-base">
                   <Link to="/about">ABOUT</Link>
                 </a>
               </li>

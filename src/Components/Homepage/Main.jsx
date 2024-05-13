@@ -13,11 +13,17 @@ export default function Main() {
           </div>
           <div className="text-5xl mb-2">
             I{" "}
-            <a className="outlined-text hover-color hover-blue font-[800]">
+            <a
+              className="outlined-text hover-color hover-blue font-[800]"
+              href="/portfolio/code"
+            >
               code
             </a>
             . I{" "}
-            <a className="outlined-text hover-color hover-pink font-bold">
+            <a
+              className="outlined-text hover-color hover-pink font-bold"
+              href="/portfolio/marketing"
+            >
               market
             </a>
             . I{" "}
