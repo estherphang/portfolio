@@ -1,5 +1,5 @@
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
-import Contact from "./Components/Contact";
+import Contact from "./Contact/Contact";
 import Profile from "./Components/Profile";
 import Footer from "./Footer";
 import Header from "./Header";

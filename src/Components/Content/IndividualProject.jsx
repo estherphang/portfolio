@@ -1,19 +1,25 @@
 import { useParams } from "react-router-dom";
 import data from "/data/data.json";
 import parse from "html-react-parser";
-import { title1, title2 } from "../StyleLibrary/ClassName";
+import {
+  postTagline,
+  title1,
+  title2,
+  hyperlink,
+} from "../StyleLibrary/ClassName";
 
 export default function IndividualProject() {
   const { url, categories } = useParams();
 
-  const posts = data.categories[categories];
-  // console.log(posts);
+  const categoryContent = data.categories[categories];
 
-  const filteredData = posts.filter((post) => post.url === url);
+  const projects = categoryContent.projects;
+
+  const filteredData = projects.filter((post) => post.url === url);
   // console.log(filteredData);
 
   return (
-    <div className="mt-4">
+    <div className="mt-8">
       <ul>
         {filteredData.map((post) => (
           <li key={post.id}>
@@ -22,13 +28,20 @@ export default function IndividualProject() {
             >
               <img src={post.image} className="md:w-6/12" />
             </div>
-            <div className={`${title1} + flex justify-center`}>
-              {post.title}
+            <h1 className={`${title1} + text-center`}>{post.title}</h1>
+            <div className={`${postTagline}`}>{parse(post.description)}</div>
+            <h2 className={`${title2}`}>What is {post.title}?</h2>
+            <div> {parse(post.what)}</div>
+            <div className={`${title2}`}>{post.whyTitle}</div>
+            <div>{parse(post.why)}</div>
+            <div className="grid grid-cols-1 mt-4">
+              {parse(post.subcontent1)}
             </div>
-            <div className={`${title2}`}>What is {post.title}?</div>
-            <div className="text-base"> {parse(post.what)}</div>
-            <div className={`${title2}`}>Why did I build {post.title}?</div>
-            <div className="div">{parse(post.why)}</div>
+            <h2 className={`${title2} `}>My role in {post.title}:</h2>
+            <div>{parse(post.role)}</div>
+            <div className="grid gap-4 md:grid-cols-2 grid-cols-1 mt-8">
+              {parse(post.subcontent2)}
+            </div>
           </li>
         ))}
       </ul>

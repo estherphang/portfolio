@@ -6,6 +6,7 @@ import { yellowBtn } from "./Components/StyleLibrary/ClassName";
 export default function Header() {
   const codingPosts = PostFetcher(data, "code");
   const marketingPosts = PostFetcher(data, "marketing");
+  const designPosts = PostFetcher(data, "design");
 
   return (
     <>
@@ -77,28 +78,28 @@ export default function Header() {
                   role="button"
                   className="m-4 hover:text-primary font-serif text-base"
                 >
-                  DESIGN
+                  <Link to="/portfolio/design">DESIGN</Link>
                 </div>
                 <ul
                   tabIndex="0"
                   className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
                 >
-                  <li>
-                    <a className="hover:bg-secondary">SSEAYP 2015</a>
-                  </li>
-                  <li>
-                    <a className="hover:bg-accent">SMU SOE Newsletter</a>
-                  </li>
-                  <li>
-                    <a className="hover:bg-accent">Pet Portraits</a>
-                  </li>
+                  {designPosts.map((post) => (
+                    <li key={post.id}>
+                      <a
+                        href={`/portfolio/design/${post.url}`}
+                        className="hover:bg-purple"
+                      >
+                        {post.title}
+                      </a>
+                    </li>
+                  ))}
                 </ul>
               </div>
-              <li>
-                <a className="mt-2 hover:text-primary hover:bg-transparent font-serif text-base">
-                  <Link to="/about">ABOUT</Link>
-                </a>
-              </li>
+
+              <div className="m-4 hover:text-primary font-serif text-base">
+                <Link to="/about">ABOUT</Link>
+              </div>
 
               {/* <li>
                 <a>Item 3</a>
@@ -131,46 +132,59 @@ export default function Header() {
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a className="font-serif">CODE</a>
+                <a className="font-serif" href="/portfolio/code">
+                  CODE
+                </a>
                 <ul className="p-2">
                   {codingPosts.map((post) => (
                     <li key={post.id}>
-                      <a className="hover:bg-secondary">{post.title}</a>
+                      <a
+                        href={`/portfolio/code/${post.url}`}
+                        className="hover:bg-secondary"
+                      >
+                        {post.title}
+                      </a>
                     </li>
                   ))}
                 </ul>
               </li>
               <li>
-                <a className="font-serif">MAREKTING / UX</a>
+                <a className="font-serif" href="/portfolio/marketing">
+                  MAREKTING
+                </a>
                 <ul className="p-2">
-                  <li>
-                    <a>Panda Saves Money</a>
-                  </li>
-                  <li>
-                    <a>SMU SOL 10th Anniversary</a>
-                  </li>
-                  <li>
-                    <a>Kopi Cafe</a>
-                  </li>
+                  {marketingPosts.map((post) => (
+                    <li key={post.id}>
+                      <a
+                        href={`/portfolio/marketing/${post.url}`}
+                        className="hover:bg-accent"
+                      >
+                        {post.title}
+                      </a>
+                    </li>
+                  ))}
                 </ul>
               </li>
               <li>
-                <a className="font-serif">DESIGN</a>
+                <a className="font-serif" href="/portfolio/design">
+                  DESIGN
+                </a>
                 <ul className="p-2">
-                  <li>
-                    <a>SSEAYP 2015</a>
-                  </li>
-                  <li>
-                    <a>SMU SOE Newsletter</a>
-                  </li>
-                  <li>
-                    <a>Pet Portraits</a>
-                  </li>
+                  {designPosts.map((post) => (
+                    <li key={post.id}>
+                      <a
+                        href={`/portfolio/design/${post.url}`}
+                        className="hover:bg-purple"
+                      >
+                        {post.title}
+                      </a>
+                    </li>
+                  ))}
                 </ul>
               </li>
-              {/* <li>
-                  <a>Item 3</a>
-                </li> */}
+              <li>
+                <a href="/about">ABOUT</a>
+              </li>
             </ul>
           </div>
         </div>
