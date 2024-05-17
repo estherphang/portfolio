@@ -16,8 +16,7 @@ export default function Header() {
             <img
               src="/header-logo.png"
               alt="logo"
-              width="200px"
-              className="-ml-2"
+              className="-ml-4 md:w-52 w-[85%]"
             ></img>
           </Link>
         </div>

@@ -19,13 +19,13 @@ export default function Card({
           <figure className="...">
             <img
               src={image}
-              className="ml-8 mt-3 max-sm:-mt-6 max-sm:ml-0"
+              className="ml-8 mt-3 max-sm:-mt-2 max-sm:ml-0"
               alt="Album"
             />
           </figure>
           <div className="card-body justify-center col-span-2 ...">
             <div className="flex flex-col  ">
-              <h2 className="card-title text-2xl font-normal max-sm:-mt-20">
+              <h2 className="card-title text-2xl font-normal max-sm:-mt-12">
                 {title}
               </h2>
               <p>{description}</p>
