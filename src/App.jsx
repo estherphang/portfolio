@@ -12,7 +12,7 @@ import About from "./Components/About";
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/portfolio",
       element: (
         <>
           <Header />
@@ -35,15 +35,10 @@ function App() {
           element: <About />,
         },
         {
-          path: `portfolio`,
+          path: `:categories`,
           children: [
-            {
-              path: `:categories`,
-              children: [
-                { index: true, element: <AllProjects /> },
-                { path: ":url", element: <IndividualProject /> },
-              ],
-            },
+            { index: true, element: <AllProjects /> },
+            { path: ":url", element: <IndividualProject /> },
           ],
         },
       ],

@@ -12,7 +12,7 @@ export default function Header() {
     <>
       <div className="navbar bg-base-100">
         <div className="navbar-start">
-          <Link to="/">
+          <Link to="/portfolio">
             <img
               src="/header-logo.png"
               alt="logo"
