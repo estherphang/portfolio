@@ -14,12 +14,14 @@ export default function Main() {
           </div>
           <div className="text-5xl mb-2">
             I{" "}
-            <a
-              className="outlined-text hover-color hover-blue font-[800]"
-              href="/portfolio/code"
-            >
-              code
-            </a>
+            <Link to="/portfolio/code">
+              <a
+                className="outlined-text hover-color hover-blue font-[800]"
+                href="/portfolio/code"
+              >
+                code
+              </a>
+            </Link>
             . I{" "}
             <a
               className="outlined-text hover-color hover-pink font-bold"
@@ -52,7 +54,10 @@ export default function Main() {
           </div>
         </div>
         <div className="content-center">
-          <img src="./self-cartoon.png" className="object-contain m-4" />
+          <img
+            src="https://raw.githubusercontent.com/estherphang/portfolio/main/public/self-cartoon.png"
+            className="object-contain m-4"
+          />
         </div>
       </div>
       <RecentWork />

@@ -14,7 +14,7 @@ export default function Header() {
         <div className="navbar-start">
           <Link to="/portfolio">
             <img
-              src="/header-logo.png"
+              src="https://raw.githubusercontent.com/estherphang/portfolio/main/public/header-logo.png"
               alt="logo"
               className="-ml-4 md:w-52 w-[85%]"
             ></img>

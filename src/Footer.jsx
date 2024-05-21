@@ -14,7 +14,11 @@ export default function Footer() {
       <footer className="footer mt-20 mb-10">
         <aside>
           <Link to="/portfolio">
-            <img src="/browser.png" width="50" height="50" />
+            <img
+              src="https://raw.githubusercontent.com/estherphang/portfolio/main/public/browser.png"
+              width="50"
+              height="50"
+            />
           </Link>
           <p>
             Esther Phang

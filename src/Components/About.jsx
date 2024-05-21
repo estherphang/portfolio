@@ -15,13 +15,17 @@ export default function About() {
       </h1>
       <div className="mt-4 mb-4 lg:grid lg:grid-cols-9 hidden md:block">
         <img
-          src="/about2by2.svg"
+          src="https://raw.githubusercontent.com/estherphang/portfolio/4a1cd297c294a9a8138c0f793831ea880de2fe10/public/about2by2.svg"
           alt="about"
           className="col-start-2 col-span-7"
         />
       </div>
       <div className="md:hidden">
-        <img src="/about-1col.svg" alt="about" className="" />
+        <img
+          src="https://raw.githubusercontent.com/estherphang/portfolio/4a1cd297c294a9a8138c0f793831ea880de2fe10/public/about-1col.svg"
+          alt="about"
+          className=""
+        />
       </div>
       <p className="mt-4">
         I am a creator at heart, with a diverse background in coding, marketing,
