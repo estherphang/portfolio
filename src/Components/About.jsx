@@ -125,7 +125,7 @@ export default function About() {
         just want to chat, feel free to reach out!
       </p>
       <p>Let's create something amazing together!</p>
-      <Link to="/contact">
+      <Link to="/portfolio/contact">
         <div className="flex items-center justify-center">
           {" "}
           <button className={`${yellowBtn}`}>LET'S COLLABORATE!</button>

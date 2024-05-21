@@ -62,7 +62,7 @@ export default function Header() {
                   {marketingPosts.map((post) => (
                     <li key={post.id}>
                       <Link
-                        to={`/portfolio/code/${post.url}`}
+                        to={`/portfolio/marketing/${post.url}`}
                         className="hover:bg-accent"
                       >
                         {post.title}
@@ -131,9 +131,9 @@ export default function Header() {
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a className="font-serif" href="/portfolio/code">
+                <Link to="/portfolio/code" className="font-serif">
                   CODE
-                </a>
+                </Link>
                 <ul className="p-2">
                   {codingPosts.map((post) => (
                     <li key={post.id}>
@@ -148,9 +148,9 @@ export default function Header() {
                 </ul>
               </li>
               <li>
-                <a className="font-serif" href="/portfolio/marketing">
-                  MAREKTING
-                </a>
+                <Link to="/portfolio/marketing" className="font-serif">
+                  MARKETING
+                </Link>
                 <ul className="p-2">
                   {marketingPosts.map((post) => (
                     <li key={post.id}>
@@ -165,9 +165,9 @@ export default function Header() {
                 </ul>
               </li>
               <li>
-                <a className="font-serif" href="/portfolio/design">
+                <Link to="/portfolio/design" className="font-serif">
                   DESIGN
-                </a>
+                </Link>
                 <ul className="p-2">
                   {designPosts.map((post) => (
                     <li key={post.id}>
@@ -182,7 +182,9 @@ export default function Header() {
                 </ul>
               </li>
               <li>
-                <a href="/portfolio/about">ABOUT</a>
+                <Link to="/portfolio/about" className="font-serif">
+                  ABOUT
+                </Link>
               </li>
             </ul>
           </div>

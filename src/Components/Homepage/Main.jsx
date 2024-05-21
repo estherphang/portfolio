@@ -46,7 +46,7 @@ export default function Main() {
             here!
           </p>
           <div className="flex justify-center items-center mb-2 md:justify-start">
-            <Link to="/contact">
+            <Link to="/portfolio/contact">
               <button className={`${yellowBtn}`}>LET'S COLLABORATE!</button>
             </Link>
           </div>
