@@ -37,12 +37,9 @@ export default function Header() {
                 >
                   {codingPosts.map((post) => (
                     <li key={post.id}>
-                      <a
-                        href={`/portfolio/code/${post.url}`}
-                        className="hover:bg-secondary"
-                      >
-                        {post.title}
-                      </a>
+                      <Link to={`/portfolio/code/${post.url}`}>
+                        <a className="hover:bg-secondary">{post.title}</a>
+                      </Link>
                     </li>
                   ))}
                 </ul>
@@ -53,7 +50,7 @@ export default function Header() {
                   role="button"
                   className="m-4 hover:text-primary font-serif text-base"
                 >
-                  <Link to="/portfolio/marketing"> MARKETING</Link>
+                  <Link to="/portfolio/marketing">MARKETING</Link>
                 </div>
                 <ul
                   tabIndex="0"
