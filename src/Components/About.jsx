@@ -1,4 +1,10 @@
-import { paraHeader, title1, title2 } from "./StyleLibrary/ClassName";
+import { Link } from "react-router-dom";
+import {
+  paraHeader,
+  title1,
+  title2,
+  yellowBtn,
+} from "./StyleLibrary/ClassName";
 
 export default function About() {
   return (
@@ -7,6 +13,16 @@ export default function About() {
         Hello World! <br />
         Welcome to My World of Creative Pursuits!
       </h1>
+      <div className="mt-4 mb-4 lg:grid lg:grid-cols-9 hidden md:block">
+        <img
+          src="/about2by2.svg"
+          alt="about"
+          className="col-start-2 col-span-7"
+        />
+      </div>
+      <div className="md:hidden">
+        <img src="/about-1col.svg" alt="about" className="" />
+      </div>
       <p className="mt-4">
         I am a creator at heart, with a diverse background in coding, marketing,
         and design. I have a knack for developing innovative marketing
@@ -48,7 +64,6 @@ export default function About() {
         of what is possible, and creating solutions that make a meaningful
         impact in the world.
       </p>
-
       <h2 className={`${title2}`}>My Values</h2>
       <h4 className={`${paraHeader}`}>Embrace Creativity</h4>
       <p>
@@ -71,13 +86,11 @@ export default function About() {
         to meet the unique needs of each project, ensuring that the best
         possible outcome is achieved.
       </p>
-
       <h2 className={`${title2}`}>What I Do</h2>
       <p>
         At the heart of my work is a commitment to excellence and innovation. My
         expertise includes:
       </p>
-
       <h4 className={`${paraHeader}`}>Content and Product Creation: </h4>
       <p>
         Crafting compelling content and design and turning it into innovative
@@ -95,26 +108,25 @@ export default function About() {
         Optimizing systems and workflows to improve efficiency and user
         satisfaction, ultimately delivering seamless and delightful experiences.
       </p>
-
       <p>
         I'm constantly exploring new trends and technologies to stay ahead in
         the fast-evolving world. My goal is to deliver not just what my clients
         expect but to exceed their expectations with every project and be 1%
         better every day.
       </p>
-
       <h2 className={`${title2}`}>Let's Connect</h2>
       <p>
         I love connecting with new people and exploring exciting opportunities.
         Whether you're looking for a collaborator, have a project in mind, or
         just want to chat, feel free to reach out!
       </p>
-
-      <p>Email: [Your Email]</p>
-      <p>LinkedIn: [Your LinkedIn Profile]</p>
-
       <p>Let's create something amazing together!</p>
-
+      <Link to="/contact">
+        <div className="flex items-center justify-center">
+          {" "}
+          <button className={`${yellowBtn}`}>LET'S COLLABORATE!</button>
+        </div>
+      </Link>
       <div></div>
       <p></p>
     </div>

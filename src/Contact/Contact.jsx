@@ -16,6 +16,19 @@ export default function Contact() {
         inquiries, collaboration opportunities, or any other business-related
         matters. Let's create something amazing together!
       </p>
+
+      <div className="-mt-2 lg:grid lg:grid-cols-9 hidden md:block">
+        <img
+          src="/contact2by1.svg"
+          alt="contact"
+          className="col-start-2 col-span-7"
+        />
+      </div>
+
+      <div className="md:hidden">
+        <img src="/contact1by2.svg" alt="contact" className="" />
+      </div>
+
       <Form />
     </>
   );
