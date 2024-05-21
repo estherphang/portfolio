@@ -97,7 +97,7 @@ export default function Header() {
               </div>
 
               <div className="m-4 hover:text-primary font-serif text-base">
-                <Link to="/about">ABOUT</Link>
+                <Link to="/portfolio/about">ABOUT</Link>
               </div>
 
               {/* <li>
@@ -105,7 +105,7 @@ export default function Header() {
               </li> */}
             </ul>
           </div>
-          <Link to="/contact" className={`${yellowBtn}`}>
+          <Link to="/portfolio/contact" className={`${yellowBtn}`}>
             CONTACT
           </Link>
           <div className="dropdown dropdown-end">
@@ -182,7 +182,7 @@ export default function Header() {
                 </ul>
               </li>
               <li>
-                <a href="/about">ABOUT</a>
+                <a href="/portfolio/about">ABOUT</a>
               </li>
             </ul>
           </div>
