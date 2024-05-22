@@ -5,7 +5,7 @@ import data from "/data/data.json";
 export default function RecentWork() {
   const codingPosts = PostFetcher(data, "code");
 
-  console.log(codingPosts);
+  // console.log(codingPosts);
 
   return (
     <>

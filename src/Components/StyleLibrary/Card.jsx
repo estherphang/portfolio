@@ -8,7 +8,7 @@ export default function Card({
   url,
   image,
 }) {
-  console.log("Colour:", colour);
+  // console.log("Colour:", colour);
 
   const bannerColour = `card lg:card-side ${colour} shadow-md mt-8 md:grid md:grid-cols-3 md:gap-4`;
 
