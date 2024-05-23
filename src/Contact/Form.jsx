@@ -9,7 +9,8 @@ export default function Form() {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", import.meta.env.VITE_SOME_MESSAGE_KEY);
+    formData.append("access_key", import.meta.env.VITE_SOME_MESSAGE_KEY) ||
+      window.config?.API_KEY;
 
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
