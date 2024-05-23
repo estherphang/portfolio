@@ -27,15 +27,5 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-    <script>
-      (() => {
-        const redirect = sessionStorage.getItem("redirect") || "/portfolio";
-        sessionStorage.removeItem("redirect");
-        if (redirect && redirect !== window.location.href) {
-          history.replaceState(null, null, redirect);
-          window.location.replace(redirect);
-        }
-      })();
-    </script>
   </body>
 </html>
