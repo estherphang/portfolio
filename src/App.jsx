@@ -15,7 +15,7 @@ import IndividualProject from "./Components/Content/IndividualProject";
 import About from "./Components/About";
 import RedirectHandler from "./Components/Hooks/RedirectHandler";
 
-function App() {
+export default function App() {
   const router = createBrowserRouter([
     {
       path: "/portfolio",
@@ -60,5 +60,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
