@@ -11,7 +11,6 @@ export default defineConfig({
         main: resolve(__dirname, "index.html"),
         404: resolve(__dirname, "public/404.html"),
       },
-      outDir: "dist",
     },
   },
   base: "/portfolio",
