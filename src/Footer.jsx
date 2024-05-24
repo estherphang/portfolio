@@ -56,7 +56,7 @@ export default function Footer() {
                 />
               </div>
             </Link>
-            <Link to="https://www.notion.so/esthercodes">
+            <Link to="https://esthercodes.notion.site/Leetcode-Learning-f7b248356ba449b3b215ee2da106b1da">
               <div
                 className={`${toolTipFooter}`}
                 data-tip="Notion: Leetcode Journey"
