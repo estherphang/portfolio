@@ -105,7 +105,7 @@ export default function Header() {
               </li> */}
             </ul>
           </div>
-          <Link to="/portfolio/contact" className={`${yellowBtn}`}>
+          <Link to="https://estherphang.com/contact" className={`${yellowBtn}`}>
             CONTACT
           </Link>
           <div className="dropdown dropdown-end">
@@ -137,10 +137,7 @@ export default function Header() {
                 <ul className="p-2">
                   {codingPosts.map((post) => (
                     <li key={post.id}>
-                      <Link
-                        to={`/portfolio/code/${post.url}`}
-                        className="hover:bg-secondary"
-                      >
+                      <Link to={`/portfolio/code/${post.url}`}>
                         {post.title}
                       </Link>
                     </li>
@@ -182,7 +179,7 @@ export default function Header() {
                 </ul>
               </li>
               <li>
-                <Link to="/portfolio/about" className="font-serif">
+                <Link to="https://estherphang.com/about" className="font-serif">
                   ABOUT
                 </Link>
               </li>

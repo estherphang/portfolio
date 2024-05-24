@@ -5,6 +5,7 @@ import {
   SiInstagram,
   SiTiktok,
 } from "react-icons/si";
+import { GrArticle } from "react-icons/gr";
 import { footerIcon, toolTipFooter } from "./Components/StyleLibrary/ClassName";
 import { Link } from "react-router-dom";
 
@@ -36,6 +37,14 @@ export default function Footer() {
                 <SiLinkedin className={`${footerIcon}`} />
               </div>
             </Link>
+            <Link to="/https://estherphang.com/">
+              <div
+                className={`${toolTipFooter}`}
+                data-tip="Blog: Penning Perspectives"
+              >
+                <GrArticle className={`${footerIcon}`} />
+              </div>
+            </Link>
             <Link to="https://github.com/estherphang">
               <div
                 className={`${toolTipFooter}`}
@@ -55,19 +64,22 @@ export default function Footer() {
                 <SiNotion className={`${footerIcon}`} />
               </div>
             </Link>
-
-            <div
-              className={`${toolTipFooter}`}
-              data-tip="Instagram: Life in Squares"
-            >
-              <SiInstagram className={`${footerIcon}`} />
-            </div>
-            <div
-              className={`${toolTipFooter}`}
-              data-tip="TikTok: Unfiltered Moments"
-            >
-              <SiTiktok className={`${footerIcon}`} />
-            </div>
+            <Link to="https://www.instagram.com/estherp.studio/">
+              <div
+                className={`${toolTipFooter}`}
+                data-tip="Instagram: Life in Squares"
+              >
+                <SiInstagram className={`${footerIcon}`} />
+              </div>
+            </Link>
+            <Link to="https://www.tiktok.com/@estherp.studio">
+              <div
+                className={`${toolTipFooter}`}
+                data-tip="TikTok: Unfiltered Moments"
+              >
+                <SiTiktok className={`${footerIcon}`} />
+              </div>
+            </Link>
           </div>
         </nav>
       </footer>
