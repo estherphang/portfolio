@@ -33,17 +33,19 @@ export default function Main() {
             </Link>
             .
           </div>
-          <p className="mb-2">
-            I'm a creator at heart. From dawn till dusk, I'm immersed in the
-            world of code, marketing strategies, and innovative design. By day,
-            I engineer elegant solutions through code, while by night, I unleash
-            captivating ideas and designs that are both relatable and
-            unforgettable. Join me on an exhilarating journey where creativity
-            knows no bounds. Let's explore the endless possibilities of merging
-            technology and design to craft experiences that resonate deeply.
-            Step into my world, where I code, market, and design, weaving a
-            seamless tapestry of innovation and artistry. Your adventure begins
-            here!
+          <p className="-mb-2 text-pretty">
+            I'm a creator at heart with diverse experience in marketing and
+            design, and I have recently started exploring coding. My journey has
+            led me to understand the seamless integration of technology and
+            design, positioning me to excel in product management or advanced
+            marketing roles. Join me as I continue to explore the endless
+            possibilities of merging these fields to create impactful and
+            memorable experiences.
+          </p>
+          <p className="text-pretty">
+            If you're interested in collaborating or discussing potential
+            opportunities, feel free to reach out. Let's create something
+            amazing together!
           </p>
           <div className="flex justify-center items-center mb-2 md:justify-start">
             <Link to="https://estherphang.com/contact">
