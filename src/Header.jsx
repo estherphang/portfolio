@@ -128,16 +128,19 @@ export default function Header() {
 
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 overflow-hidden"
             >
               <li>
                 <Link to="/portfolio/code" className="font-serif">
                   CODE
                 </Link>
-                <ul className="p-2">
+                <ul className="p-2 bg-base-200 rounded-box">
                   {codingPosts.map((post) => (
                     <li key={post.id}>
-                      <Link to={`/portfolio/code/${post.url}`}>
+                      <Link
+                        to={`/portfolio/code/${post.url}`}
+                        className="hover:bg-secondary block truncate"
+                      >
                         {post.title}
                       </Link>
                     </li>
