@@ -134,12 +134,12 @@ export default function Header() {
                 <Link to="/portfolio/code" className="font-serif">
                   CODE
                 </Link>
-                <ul className="p-2 bg-base-200 rounded-box">
+                <ul className="p-2 rounded-box">
                   {codingPosts.map((post) => (
                     <li key={post.id}>
                       <Link
                         to={`/portfolio/code/${post.url}`}
-                        className="hover:bg-secondary block truncate"
+                        className="hover:bg-secondary display: inline-block "
                       >
                         {post.title}
                       </Link>
