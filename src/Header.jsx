@@ -97,7 +97,7 @@ export default function Header() {
               </div>
 
               <div className="m-4 hover:text-primary font-serif text-base">
-                <Link to="/portfolio/about">ABOUT</Link>
+                <Link to="https://estherphang.com/about">ABOUT</Link>
               </div>
 
               {/* <li>
@@ -109,7 +109,11 @@ export default function Header() {
             CONTACT
           </Link>
           <div className="dropdown dropdown-end">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+            <div
+              tabIndex={0}
+              role="button"
+              className="hover:bg-transparent btn btn-ghost lg:hidden"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"

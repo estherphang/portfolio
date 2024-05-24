@@ -37,7 +37,7 @@ export default function Footer() {
                 <SiLinkedin className={`${footerIcon}`} />
               </div>
             </Link>
-            <Link to="/https://estherphang.com/">
+            <Link to="https://estherphang.com/">
               <div
                 className={`${toolTipFooter}`}
                 data-tip="Blog: Penning Perspectives"
