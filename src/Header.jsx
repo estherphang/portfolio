@@ -173,7 +173,7 @@ export default function Header() {
                     <li key={post.id}>
                       <Link
                         to={`/portfolio/design/${post.url}`}
-                        className="hover:bg-purple"
+                        className="hover:bg-purple  text-wrap"
                       >
                         {post.title}
                       </Link>

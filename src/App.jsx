@@ -1,19 +1,12 @@
-import {
-  createBrowserRouter,
-  createHashRouter,
-  Outlet,
-  RouterProvider,
-} from "react-router-dom";
-import Contact from "./Contact/Contact";
+import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
+// import Contact from "./Contact/Contact";
 import Profile from "./Components/Profile";
 import Footer from "./Footer";
 import Header from "./Header";
 import Main from "./Components/Homepage/Main";
-
 import AllProjects from "./Components/Content/AllProjects";
 import IndividualProject from "./Components/Content/IndividualProject";
-import About from "./Components/About";
-import RedirectHandler from "./Components/Hooks/RedirectHandler";
+// import About from "./Components/About";
 
 export default function App() {
   const router = createBrowserRouter([
@@ -21,7 +14,6 @@ export default function App() {
       path: "/portfolio",
       element: (
         <>
-          <RedirectHandler />
           <Header />
           <Outlet />
           <Footer />
@@ -33,14 +25,14 @@ export default function App() {
           path: "profile",
           element: <Profile />,
         },
-        {
-          path: "contact",
-          element: <Contact />,
-        },
-        {
-          path: "about",
-          element: <About />,
-        },
+        // {
+        //   path: "contact",
+        //   element: <Contact />,
+        // },
+        // {
+        //   path: "about",
+        //   element: <About />,
+        // },
         {
           path: `:categories`,
           children: [
