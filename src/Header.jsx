@@ -139,7 +139,7 @@ export default function Header() {
                     <li key={post.id}>
                       <Link
                         to={`/portfolio/code/${post.url}`}
-                        className="hover:bg-secondary display: inline-block "
+                        className="hover:bg-secondary text-wrap"
                       >
                         {post.title}
                       </Link>
@@ -156,7 +156,7 @@ export default function Header() {
                     <li key={post.id}>
                       <Link
                         to={`/portfolio/marketing/${post.url}`}
-                        className="hover:bg-accent"
+                        className="hover:bg-accenttext-wrap"
                       >
                         {post.title}
                       </Link>
