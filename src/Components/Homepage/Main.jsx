@@ -15,19 +15,19 @@ export default function Main() {
           <div className="text-5xl mb-2">
             I{" "}
             <Link to="/portfolio/marketing">
-              <a className="outlined-text hover-color hover-pink font-bold">
+              <a className="outlined-text hover-color hover-blue font-bold">
                 market
               </a>
             </Link>
             . I{" "}
             <Link to="/portfolio/design">
-              <a className="outlined-text hover-color hover-purple font-bold">
+              <a className="outlined-text hover-color hover-pink font-bold">
                 design
               </a>
             </Link>
             . I{" "}
             <Link to="/portfolio/code">
-              <a className="outlined-text hover-color hover-blue font-[800]">
+              <a className="outlined-text hover-color hover-purple font-[800]">
                 code
               </a>
             </Link>

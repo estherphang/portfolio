@@ -34,11 +34,13 @@ export default function IndividualProject() {
             <div> {parse(post.what)}</div>
             <div className={`${title2}`}>{post.whyTitle}</div>
             <div>{parse(post.why)}</div>
-            <div className="grid grid-cols-1 mt-4">
+            <div className="flex justify-center items-center">
               {parse(post.subcontent1)}
             </div>
             <h2 className={`${title2} `}>My role in {post.title}:</h2>
             <div>{parse(post.role)}</div>
+            <h2 className={`${title2} `}>{post.viewProjectTitle}</h2>
+            <div>{parse(post.projectContent)}</div>
             <div className="grid gap-4 md:grid-cols-2 grid-cols-1 mt-8">
               {parse(post.subcontent2)}
             </div>

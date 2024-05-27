@@ -39,7 +39,7 @@ export default function Header() {
                     <li key={post.id}>
                       <Link
                         to={`/portfolio/marketing/${post.url}`}
-                        className="hover:bg-accent"
+                        className="hover:bg-secondary"
                       >
                         {post.title}
                       </Link>
@@ -63,7 +63,7 @@ export default function Header() {
                     <li key={post.id}>
                       <Link
                         to={`/portfolio/design/${post.url}`}
-                        className="hover:bg-purple"
+                        className="hover:bg-accent"
                       >
                         {post.title}
                       </Link>
@@ -88,7 +88,7 @@ export default function Header() {
                     <li key={post.id}>
                       <Link
                         to={`/portfolio/code/${post.url}`}
-                        className="hover:bg-secondary"
+                        className="hover:bg-purple"
                       >
                         {post.title}
                       </Link>
@@ -136,23 +136,6 @@ export default function Header() {
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 overflow-hidden"
             >
               <li>
-                <Link to="/portfolio/code" className="font-serif">
-                  CODE
-                </Link>
-                <ul className="p-2 rounded-box">
-                  {codingPosts.map((post) => (
-                    <li key={post.id}>
-                      <Link
-                        to={`/portfolio/code/${post.url}`}
-                        className="hover:bg-secondary text-wrap"
-                      >
-                        {post.title}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </li>
-              <li>
                 <Link to="/portfolio/marketing" className="font-serif">
                   MARKETING
                 </Link>
@@ -161,7 +144,7 @@ export default function Header() {
                     <li key={post.id}>
                       <Link
                         to={`/portfolio/marketing/${post.url}`}
-                        className="hover:bg-accent text-wrap"
+                        className="hover:bg-secondary text-wrap"
                       >
                         {post.title}
                       </Link>
@@ -178,7 +161,24 @@ export default function Header() {
                     <li key={post.id}>
                       <Link
                         to={`/portfolio/design/${post.url}`}
-                        className="hover:bg-purple  text-wrap"
+                        className="hover:bg-accent text-wrap"
+                      >
+                        {post.title}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </li>
+              <li>
+                <Link to="/portfolio/code" className="font-serif">
+                  CODE
+                </Link>
+                <ul className="p-2 rounded-box">
+                  {codingPosts.map((post) => (
+                    <li key={post.id}>
+                      <Link
+                        to={`/portfolio/code/${post.url}`}
+                        className="hover:bg-purple text-wrap"
                       >
                         {post.title}
                       </Link>
