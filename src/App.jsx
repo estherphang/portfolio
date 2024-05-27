@@ -1,6 +1,5 @@
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 // import Contact from "./Contact/Contact";
-import Profile from "./Components/Profile";
 import Footer from "./Footer";
 import Header from "./Header";
 import Main from "./Components/Homepage/Main";
@@ -21,10 +20,10 @@ export default function App() {
       ),
       children: [
         { index: true, element: <Main /> },
-        {
-          path: "profile",
-          element: <Profile />,
-        },
+        // {
+        //   path: "profile",
+        //   element: <Profile />,
+        // },
         // {
         //   path: "contact",
         //   element: <Contact />,

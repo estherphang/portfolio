@@ -29,30 +29,6 @@ export default function Header() {
                   role="button"
                   className="m-4 hover:text-primary font-serif text-base"
                 >
-                  <Link to="/portfolio/code"> CODE </Link>
-                </div>
-                <ul
-                  tabIndex="0"
-                  className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
-                >
-                  {codingPosts.map((post) => (
-                    <li key={post.id}>
-                      <Link
-                        to={`/portfolio/code/${post.url}`}
-                        className="hover:bg-secondary"
-                      >
-                        {post.title}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="dropdown dropdown-hover">
-                <div
-                  tabIndex="0"
-                  role="button"
-                  className="m-4 hover:text-primary font-serif text-base"
-                >
                   <Link to="/portfolio/marketing">MARKETING</Link>
                 </div>
                 <ul
@@ -88,6 +64,31 @@ export default function Header() {
                       <Link
                         to={`/portfolio/design/${post.url}`}
                         className="hover:bg-purple"
+                      >
+                        {post.title}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="dropdown dropdown-hover">
+                <div
+                  tabIndex="0"
+                  role="button"
+                  className="m-4 hover:text-primary font-serif text-base"
+                >
+                  <Link to="/portfolio/code"> CODE </Link>
+                </div>
+                <ul
+                  tabIndex="0"
+                  className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
+                >
+                  {codingPosts.map((post) => (
+                    <li key={post.id}>
+                      <Link
+                        to={`/portfolio/code/${post.url}`}
+                        className="hover:bg-secondary"
                       >
                         {post.title}
                       </Link>
