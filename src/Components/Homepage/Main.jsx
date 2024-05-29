@@ -44,8 +44,7 @@ export default function Main() {
           </p>
           <p className="text-pretty">
             If you're interested in collaborating or discussing potential
-            opportunities, feel free to reach out. Let's create something
-            amazing together!
+            opportunities, feel free to reach out.
           </p>
           <div className="flex justify-center items-center mb-2 md:justify-start">
             <Link to="https://estherphang.com/contact">
