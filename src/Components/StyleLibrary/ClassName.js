@@ -9,6 +9,8 @@ const toolTipFooter = "tooltip tooltip-bottom tooltip-primary";
 const paraHeader = "text-lg font-serif mt-4 mb-4";
 const postTagline = "text-lg mb-6 italic text-center";
 const hyperlink = "bg-primary hover:text-accent";
+const footerText =
+  "text-sm font-medium font-serif tracking-wider text-gray-500";
 
 export {
   yellowBtn,
@@ -21,4 +23,5 @@ export {
   paraHeader,
   postTagline,
   hyperlink,
+  footerText,
 };

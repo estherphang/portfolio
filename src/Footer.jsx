@@ -6,7 +6,11 @@ import {
   SiTiktok,
 } from "react-icons/si";
 import { GrArticle } from "react-icons/gr";
-import { footerIcon, toolTipFooter } from "./Components/StyleLibrary/ClassName";
+import {
+  footerIcon,
+  footerText,
+  toolTipFooter,
+} from "./Components/StyleLibrary/ClassName";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
@@ -27,7 +31,7 @@ export default function Footer() {
           </p>
         </aside>
         <nav>
-          <h6 className="footer-title">Social</h6>
+          <h6 className={`${footerText}`}>SOCIALS</h6>
           <div className="grid grid-flow-col gap-4">
             <Link to="https://www.linkedin.com/in/estherpxy/">
               <div
