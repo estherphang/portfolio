@@ -7,7 +7,7 @@ export default function Main() {
   return (
     <>
       <div className="flex flex-col mt-4 md:grid md:grid-cols-3 md:gap-4 ">
-        <div className="content-center col-span-2">
+        <div className="content-center col-span-2 mr-4">
           <div className="text-4xl mt-4 font-serif mb-2">
             {" "}
             Hello World! I am Esther.
@@ -56,7 +56,7 @@ export default function Main() {
         <div className="content-center">
           <img
             src="https://raw.githubusercontent.com/estherphang/portfolio/main/public/self-cartoon.png"
-            className="object-contain m-4"
+            className="object-contain"
           />
         </div>
       </div>

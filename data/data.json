@@ -1,7 +1,8 @@
 {
   "categories": {
     "code": {
-      "content": "Introductory content for the code category.",
+      "content": "<p>Recently, I ventured into coding, leveraging my marketing and design background to build responsive and efficient web applications. Proficient in HTML, CSS, JavaScript, and React, I integrate data-driven insights to create innovative solutions that meet both user needs and business objectives. </p><h4 class='cat'>Tech Stack:</h4><ul class='cat'><li class='cat'>Languages: JavaScript, HTML, CSS, SQL</li><li class='cat'>Frontend: React, MUI, TailwindCSS, DaisyUI</li><li class='cat'>Backend: ExpressJS, Postgres, Sequelize</li><li class='cat'>Others: Firebase, Axios</li></ul>",
+      "contentImage": "coding-cover.jpg",
       "projects": [
         {
           "id": "3",
@@ -58,7 +59,8 @@
       ]
     },
     "marketing": {
-      "content": "Introductory content for the marketing category.",
+      "content": "<p>With over a decade of marketing experience, I specialise in campaign management, influencing consumer behaviour, and creating versatile content—from informative financial literacy comics to captivating coffee table books. My background in design and coding enhances my ability to communicate strategies and requirements to stakeholders effectively. Each campaign I craft is tailored to exceed client expectations and resonate deeply with target audiences.</p><h4 class ='cat'>Specialisation:</h4><ul class ='cat'><li class ='cat'>Campaign Management</li><li li class ='cat'>Content and Product Creation</li><li li class ='cat'>Branding</li><li li class ='cat'>Digital Marketing</li></ul>",
+      "contentImage": "marketing-cover.jpg",
       "projects": [
         {
           "id": "2",
@@ -70,7 +72,7 @@
           "what": "<p>Panda Saves Money is a light-hearted comic series focused on nancial literacy. This engaging comic aims to educate Singaporeans on effective money-saving tips, smart investment strategies, and essential insurance knowledge. The content is posted on Instagram and Facebook.</p>",
           "whyTitle": "Why did we create Panda Saves Money? ",
           "why": "<p>The client decided to create content about financial literacy to address a significant gap she noticed among her clients. Many of them were eager to invest but lacked an understanding of how the economy and other external factors could impact their investments. Additionally, she observed that many people struggled with managing their money effectively. To bridge this gap, she envisioned creating educational content that would simplify complex financial concepts. Recognising my expertise in marketing and content creation, she approached me to bring this vision to life. This led to the creation of ‘Panda Saves Money’ a light-hearted comic series aimed at making financial literacy accessible and engaging for everyone.</p>",
-          "role": "Content Creator, Illustrator and Marketing Consultant",
+          "role": "<p>Content Creator, Illustrator and Marketing Consultant</p>",
           "viewProjectTitle": "Read Panda Saves Money Comics:",
           "projectContent": "<p><a href='https://www.instagram.com/panda.saves.money/' style='text-decoration: none; border-bottom: 3px solid #A2E0FA'>Instagram</a> </p><p><a href='https://drive.google.com/file/d/1G4mKYmrqLsRc6El-XkASf7kXK3IR86-N/view' style='text-decoration: none; border-bottom: 3px solid #A2E0FA'>Panda Saves Money Comics Series 1</a>, <a href='https://drive.google.com/file/d/1TGthr80RFr4w0n_VLqac8FvWxSzi9xTJ/view' style='text-decoration: none; border-bottom: 3px solid #A2E0FA'>Panda Saves Money Comics Series 2</a></p>",
           "subcontent1": "",
@@ -95,7 +97,8 @@
       ]
     },
     "design": {
-      "content": "Introductory content for the design category.",
+      "content": "<p>In the design realm, I create visually compelling graphics and intuitive user interfaces that enhance user experience and reinforce brand identity. My expertise in branding, illustration and UX/UI design allows me to seamlessly integrate aesthetic appeal with functional design principles, ensuring each project achieves its strategic objectives.</p><h4 class='cat'>Specialisation:</h4><ul class='cat'><li class='cat'>Branding</li><li class='cat'>Illustration</li><li class='cat'>UX/UI Design</li><li class='cat'>Visual Storytelling</li></ul>",
+      "contentImage": "design-cover.jpg",
       "projects": [
         {
           "id": "3",

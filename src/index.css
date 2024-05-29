@@ -34,3 +34,19 @@ h5,
 h6 {
   font-family: "Roboto Slab", sans-serif;
 }
+
+h3.cat {
+  font-size: 1.875rem;
+}
+
+h4.cat {
+  font-size: 1rem;
+}
+
+ul.cat {
+  list-style-type: disc;
+}
+
+li.cat {
+  margin-left: 40px;
+}
