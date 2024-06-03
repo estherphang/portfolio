@@ -4,6 +4,7 @@ import {
   SiLinkedin,
   SiInstagram,
   SiTiktok,
+  SiReaddotcv,
 } from "react-icons/si";
 import { GrArticle } from "react-icons/gr";
 import {
@@ -60,14 +61,22 @@ export default function Footer() {
                 />
               </div>
             </Link>
-            <Link to="https://esthercodes.notion.site/Leetcode-Learning-f7b248356ba449b3b215ee2da106b1da">
+            <Link to="https://read.cv/estherphang">
+              <div
+                className={`${toolTipFooter}`}
+                data-tip="Read.cv: Highlights of My Work"
+              >
+                <SiReaddotcv className={`${footerIcon}`} />
+              </div>
+            </Link>
+            {/* <Link to="https://esthercodes.notion.site/Leetcode-Learning-f7b248356ba449b3b215ee2da106b1da">
               <div
                 className={`${toolTipFooter}`}
                 data-tip="Notion: Leetcode Journey"
               >
                 <SiNotion className={`${footerIcon}`} />
               </div>
-            </Link>
+            </Link> */}
             <Link to="https://www.instagram.com/estherp.studio/">
               <div
                 className={`${toolTipFooter}`}
