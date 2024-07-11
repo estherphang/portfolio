@@ -5,6 +5,7 @@ import {
   SiInstagram,
   SiTiktok,
   SiReaddotcv,
+  SiWebtoon,
 } from "react-icons/si";
 import { GrArticle } from "react-icons/gr";
 import {
@@ -83,6 +84,14 @@ export default function Footer() {
                 data-tip="Instagram: Life in Squares"
               >
                 <SiInstagram className={`${footerIcon}`} />
+              </div>
+            </Link>
+            <Link to="https://www.webtoons.com/en/canvas/everyday-conversations-esther-and-yh/list?title_no=979034">
+              <div
+                className={`${toolTipFooter}`}
+                data-tip="Webtoon: Everyday Conversations - Comic"
+              >
+                <SiWebtoon className={`${footerIcon}`} />
               </div>
             </Link>
             <Link to="https://www.tiktok.com/@estherp.studio">
