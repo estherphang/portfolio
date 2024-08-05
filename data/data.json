@@ -101,6 +101,22 @@
       "contentImage": "design-cover.jpg",
       "projects": [
         {
+          "id": "4",
+          "url": "kopi-cafe-ux",
+          "title": "Kopi Cafe",
+          "description": "A UX research and on a local cafe application.",
+          "colour": "bg-accent",
+          "image": "kopi-cafe.png",
+          "what": "<p>This app was created to attract and retain customers who visit Kopi Cafe. The relevant competitors offered dedicated mobile apps for their customers to create orders and make payments, and they have been very successful.</p><p>Kopi Café app is designed to provide customers with a menu and an ordering and payment mechanism. A note function included in the app allows customers with food allergies to notify the kitchen of the necessary modifications. This app is intended to speed up the ordering process, bringing time savings to both customers and the café.</p> <p>Therefore, the Kopi Cafe app was created to allow the café to compete more effectively in the market, improve sales, and increase customer satisfaction.</p><p>Note: This project is based on a fictional brand.</p>  ",
+          "whyTitle": "Why did I build Kopi Cafe?",
+          "why": "<p>In Singapore, most café menus do not list common food allergens that may be found in the products offered. Customers with food allergies may not be aware of such allergens in the food they are ordering, and even if they are aware of them, they may not necessarily know if they can make the necessary modifications.</p> <p>Kopi Café App is intended to allow its users to customise their food orders by adding a note to them.</p> <p>The final high-fidelity prototype presented a cleaner user flow for ordering and checkout and met users’ needs for customising their meals.</p> <a href='https://estherphang.com/contact' style='text-decoration: none; border-bottom: 3px solid #A2E0FA;'>View Kopi Cafe's High-Fidelity Prototype</a>",
+          "role": "UX Researcher and UI Designer",
+          "viewProjectTitle": "",
+          "projectContent": "<a href='https://estherphang.com/contact' style='text-decoration: none; border-bottom: 3px solid #A2E0FA;'>View Kopi Cafe's High-Fidelity Prototype</a><p style='margin-top: 26px;'>Features</p><p align='center'><img src=https://images.squarespace-cdn.com/content/v1/5bcc12f5fb22a536f854996c/50e0faa0-8127-4494-9eba-8021cd7c7dab/KopiCafe-UX-feature1?format=750w></p><p align='center'><img src=https://images.squarespace-cdn.com/content/v1/5bcc12f5fb22a536f854996c/5e893fa1-b4fd-473a-9e34-ba5d0ba6effb/KopiCafe-UX-feature2?format=750w></p><p align='center'><img src=https://images.squarespace-cdn.com/content/v1/5bcc12f5fb22a536f854996c/401e0fe4-54c6-4817-a47e-23012d8d5c24/KopiCafe-UX-feature3?format=750w</p>",
+          "subcontent1": "<img src=https://images.squarespace-cdn.com/content/v1/5bcc12f5fb22a536f854996c/47d9849e-8adc-4e43-af1f-3a87743a88e4/KopiCafe-UX-mockups?format=750w> <p> ",
+          "subcontent2": ""
+        },
+        {
           "id": "3",
           "url": "smu-10th-anniversary",
           "title": "SMU 10th Anniversary",
@@ -113,7 +129,7 @@
           "role": "Logo Designer, Content Creator and Event Organiser",
           "viewProjectTitle": "",
           "projectContent": "",
-          "subcontent1": "<img src=https://raw.githubusercontent.com/estherphang/portfolio/4a1cd297c294a9a8138c0f793831ea880de2fe10/public/sol-10.svg>",
+          "subcontent1": "<img src=https://raw.githubusercontent.com/estherphang/portfolio/4a1cd297c294a9a8138c0f793831ea880de2fe10/public/sol-10.svg>  ",
           "subcontent2": ""
         },
         {
