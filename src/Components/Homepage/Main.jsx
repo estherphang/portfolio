@@ -1,5 +1,5 @@
 import RecentWork from "./RecentWork";
-import "./homepage.css";
+import "/src/Components/Homepage/homepage.css";
 import { yellowBtn } from "../StyleLibrary/ClassName";
 import { Link } from "react-router-dom";
 
